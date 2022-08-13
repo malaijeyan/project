@@ -1,71 +1,12 @@
- import Addquantity from './Addquantity';
-// import AddToCart from './AddToCart';
-import './App.css';
-//  import Todo from '../backup/day20/Todo';
-// import Product from './project/Product';
-import OrderPage from './OrderPage';
- function App(){
-    return(<div className="app">
-     {/* <Product/> */}
-     <OrderPage/>
-     <Addquantity/>
-     {/* <AddToCart/> */}
-   </div>);
- }
- export default App; 
- //  import './App.css';
-//  import Addquantity from './Addquantity';
-//  function App(){
-//     return(
-//         <div className="app">
-//             <Addquantity />
-//         </div>
-//     );
-//  }
-//  export default App;
-
-// import './App.css';
-//import ConditionalRender from './day13/ConditionalRender';
-//import Welcome from './Welcome';
-//import List from './List';
-
-// import Contactus from './Contactus';
-// import Bank from './Bank';
-// import Count from './Count';
-// function App()
-// {
-//  return(<div className="app">
-
-// <Contactus />
-//  </div>);
- 
- 
-// }
-  
-// export default App;
-// import './App.css';
-// import Create from '../backup/day10/Create';
-
-// // import Contactus from './Contactus';
-// function App(){
-//     return(<div className="app">
-//         <Create />
-//     </div>);
-    
-// }
-// export default App;
-
-
-
 // import './App.css';
 // import Home from './Home';
 // import Category from './Category';
-// import Product from './Product';
+// import Product from '../backup/pro/productpage';
 // import Order from './Order';
 // import Aboutus from './Aboutus';
 // import Contactus from './Contactus';
-// import Pagenotfound from './Pagenotfound';
-// import User from './User';
+// import Pagenotfound from '../Pagenotfound';
+// import User from '../User';
 
 // import { BrowserRouter, Link, Route, Routes, NavLink } from 'react-router-dom';
 // import {createContext, useState} from "react";
@@ -117,19 +58,65 @@ import OrderPage from './OrderPage';
 //         </BrowserRouter>
 //     );
 // }
+
+// import './App.css';
+//import ConditionalRender from './day13/ConditionalRender';
+//import Welcome from './Welcome';
+//import List from './List';
+
+// import Contactus from './Contactus';
+// import Bank from './Bank';
+// import Count from './Count';
+// function App()
+// {
+//  return(<div className="app">
+
+// <Contactus />
+//  </div>);
+ 
+ 
+// }
+  
+// export default App;
+// import './App.css';
+// import Create from '../backup/day10/Create';
+
+// // import Contactus from './Contactus';
+// function App(){
+//     return(<div className="app">
+//         <Create />
+//     </div>);
+    
+// }
 // export default App;
 
 
 
-//  import './App.css';
-// // import Bank from './Bank';
-// // import Todo from '../backup/day12/Todo';
-// import Todo from './Todo';
-// function App(){
-//     return(<div className="app">
-//   Day 18-React Hooks
-//        <Todo/>
-//    </div>)
-// }
-//  export default App; 
- 
+// export default App;
+
+
+
+/* import './App.css';
+import Bank from './Bank';
+import Todo from '../backup/day12/Todo';
+import Todo from './Todo';
+function App(){
+    return(<div className="app">
+  Day 18-React Hooks
+       <Todo/>
+   </div>)
+}
+ export default App; 
+ */
+
+import './App.css';
+import Product from './Product';
+function App(){
+    return(
+        <div>
+            REDUX-SAGA
+            <Product/>
+        </div>
+    );
+}
+export default App;
