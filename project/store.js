@@ -1,32 +1,29 @@
-// import { configureStore } from "@reduxjs/toolkit";
-// import creatSagaMiddleware from "@redux-saga/core";
+// import { configureStore} from "@reduxjs/toolkit";
+// import createSagaMiddleware from "@redux-saga/core";
 // import todoReducer from "./todoSlice";
 // import saga from "./saga";
-// // import counterReducer from "../backup/day13/CounterSlice";
-// let sagaMiddleware = creatSagaMiddleware();
+// let sagaMiddleware = createSagaMiddleware();
 // export const store = configureStore(
 //     {
-//         reducer:{
+//     reducer:{
 //         todo: todoReducer
 //     },
-//         middleware: (getDefaultMiddleware) => getDefaultMiddleware({thunk:false}).concat(sagaMiddleware),
+//     middleware: (getDefaultMiddleware) => getDefaultMiddleware({thunk:false}).concat(sagaMiddleware),
 // });
-
 // sagaMiddleware.run(saga);
+// export default store.js;
 
-import { configureStore } from "@reduxjs/toolkit";
-import creatSagaMiddleware from "@redux-saga/core";
-import productReducer from "./productSlice";
-import saga from "./saga";
-// import counterReducer from "../backup/day13/CounterSlice";
-let sagaMiddleware = creatSagaMiddleware();
+import { configureStore} from "@reduxjs/toolkit";
+// import createSagaMiddleware from "@redux-saga/core";
+// import todoReducer from "./todoSlice";
+// import saga from "./saga";
+// let sagaMiddleware = createSagaMiddleware();
 export const store = configureStore(
     {
-        reducer:{
-        product: productReducer
+    reducer:{
+        productpage: productReducer
     },
-        middleware: (getDefaultMiddleware) => getDefaultMiddleware({thunk:false}).concat(sagaMiddleware),
+//     middleware: (getDefaultMiddleware) => getDefaultMiddleware({thunk:false}).concat(sagaMiddleware),
 });
-
-sagaMiddleware.run(saga);
+// sagaMiddleware.run(saga);
 
